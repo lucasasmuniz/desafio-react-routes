@@ -8,6 +8,9 @@
   --color-font-primary: #FFF;
   --color-font-secondary: #000;
 
+  --color-font-nav-links-hover: #c9c9c9;
+  --color-font-nav-links-secondary-hover: #252525;
+
 }
 
 * {
@@ -27,8 +30,28 @@ a, a:hover{
   color: unset;
 }
 
+main{
+  padding: 20px;
+}
+
 .container{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.nav-links{
+  color: var(--color-font-primary);
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-links:hover{
+  color: var(--color-font-nav-links-hover);
+  transition: 0.5s;
 }

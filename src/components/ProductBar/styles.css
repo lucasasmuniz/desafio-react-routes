@@ -1,0 +1,13 @@
+.product-bar-container{
+    background-color: var(--color-bg-tertiary);
+    padding: 20px;
+}
+
+.nv-black{
+    color: var(--color-font-secondary);
+}
+
+.nv-black:hover{
+    color: var(--color-font-nav-links-secondary-hover);
+    transition: 0.5s;
+}
